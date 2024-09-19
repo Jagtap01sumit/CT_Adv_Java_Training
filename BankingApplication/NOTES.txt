@@ -1,0 +1,19 @@
+how is working of multiple inheritance in cpp?????
+reflection in java??
+dynamic binding in java in depth
+
+-java not support multiple implementation inheritance. java support muliple interface inheritance
+-abstract class and interfaces are non-activable ( we cannot create a obj & instance of this class)
+-Function interface=> the interface having only having one method .
+
+/*
+public interface Profitable {
+	void addInterest(int period);
+}
+--we(can but) cannot write fields(variable)(instance field) in interfaces, if we write it take it as a public , static and final(class fields) .
+
+//public interface Profitable {
+	int rate=0.9 //its wrong.^
+	void addInterest(int period);
+//}
+*/
